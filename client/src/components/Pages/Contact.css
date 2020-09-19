@@ -1,3 +1,26 @@
 #Contact {
-    height: 55vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(145deg, #ffffff, #d8d8d8);
+}
+
+.bgShadow.container {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ffffff, #d8d8d8);
+  box-shadow: 20px 20px 30px #cccccc, -20px -20px 30px #f0f0f0;
+  margin-bottom: 3em;
+}
+
+.email {
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ffffff, #d8d8d8);
+  box-shadow: 20px 20px 30px #cccccc, -20px -20px 30px #f0f0f0;
+  margin-bottom: 3em;
+  padding: 5em 1;
+}
+
+.margin,
+TextareaAutosize {
+  padding: 2em;
 }

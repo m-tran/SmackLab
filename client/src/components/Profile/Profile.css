@@ -1,16 +1,19 @@
 .bgProfile {
-    background: #e4e4e4;
-    padding: 3em;
-    height: 75vh;
+  background: #e4e4e4;
+  padding: 3em;
+  height: 75vh;
 }
 
 .text-white {
-    color: black !important;
+  color: black !important;
 }
 
 .bgProfile .container {
-    border-radius: 50px;
-background: #e4e4e4;
-box-shadow:  20px 20px 60px #c2c2c2, 
-             -20px -20px 60px #ffffff;
+  border-radius: 50px;
+  background: #e4e4e4;
+  box-shadow: 20px 20px 60px #c2c2c2, -20px -20px 60px #ffffff;
+}
+
+.MuiPaper-root {
+  color: white !important;
 }

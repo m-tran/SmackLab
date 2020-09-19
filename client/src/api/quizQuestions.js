@@ -33,11 +33,11 @@ var quizQuestions = [
       },
       {
         type: "Question3",
-        content: "4-5 times a week",
+        content: "5-6 times a week",
       },
       {
         type: "Question4",
-        content: "5+ times a week",
+        content: "Everyday",
       },
     ],
   },
@@ -91,7 +91,7 @@ var quizQuestions = [
     answers: [
       {
         type: "Question1",
-        content: "Don't have to time",
+        content: "Don't have the time",
       },
       {
         type: "Question2",

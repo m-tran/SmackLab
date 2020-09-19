@@ -39,8 +39,13 @@ export default function ContactUS() {
   }
 
   return (
-    <div id="Contact" className="container shadow">
-      <Grid container spacing={2} justify="center">
+    <div id="Contact">
+      <Grid
+        container
+        className="bgShadow container"
+        spacing={2}
+        justify="center"
+      >
         <Grid item xs={12}>
           <h2 className="weight800 text-white">Smack talk with us!</h2>
           <p className="weight500 text-crimson">
@@ -50,7 +55,7 @@ export default function ContactUS() {
         </Grid>
         <Grid className="email shadow" justify="center">
           <form onSubmit={sendEmail}>
-            <Grid item xs={12}>
+            <Grid item xs={12} spacing={1} className="margin">
               <TextField
                 id="filled-basic"
                 type="text"
@@ -83,11 +88,7 @@ export default function ContactUS() {
               ></TextareaAutosize>
             </Grid>
             <Grid item xs={12}>
-              <input
-                type="submit"
-                className="btn btn-info"
-                value="Send Message"
-              ></input>
+              <input type="submit" className="btn" value="Send Message"></input>
             </Grid>
           </form>
         </Grid>

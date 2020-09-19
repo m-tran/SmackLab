@@ -1,6 +1,4 @@
 import React from "react";
-// import lgLogo from "../img/sl_md.png";
-// import logo from "../img/logo1.png";
 import { Paper, Grid, makeStyles, Typography } from "@material-ui/core";
 import "./Home.css";
 import "../../App.css";
@@ -19,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     textAlign: "center",
-  },
+  }
 }));
 
 const Home = () => {
@@ -76,8 +74,7 @@ const Home = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Home;
 
-//BOTTOM CODE IS ACTUALLY NAVBAR - this has been MIGRATED YO!
